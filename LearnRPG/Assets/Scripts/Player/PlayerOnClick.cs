@@ -68,6 +68,7 @@ public class PlayerOnClick : MonoBehaviour
             MovePlayer();
             playerMove.y = height * Time.deltaTime;
             collisionFlags = Controller.Move(playerMove);
+            
         }
     }
 
@@ -78,8 +79,11 @@ public class PlayerOnClick : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
+          
+
             if (Physics.Raycast(ray, out hit))
             {
+                
                 playerToPointDistance = Vector3.Distance(transform.position, hit.point);
                 if(hit.collider.gameObject.layer == LayerMask.NameToLayer("Ground"))
                 {
@@ -100,7 +104,7 @@ public class PlayerOnClick : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(NewMovePoint - transform.position), turnSpeed * Time.deltaTime);
 
             playerMove = transform.forward * currentSpeed * Time.deltaTime;
-
+            
             if (Vector3.Distance(transform.position, NewMovePoint) <= 0.6f)
             {
                 canMove=false;
