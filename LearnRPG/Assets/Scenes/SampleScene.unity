@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 227912334}
   - component: {fileID: 227912333}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CoolDown 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 264047929}
   - component: {fileID: 264047928}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: ManaCoolDown 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 640725465}
   - component: {fileID: 640725464}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CoolDown 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -735,7 +735,7 @@ GameObject:
   - component: {fileID: 809663230}
   - component: {fileID: 809663229}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Skill icon 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -782,7 +782,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7092324b93851a14c858530cca4a6b26, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f4efbca1fbfc9504085da6cf11006e03, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -888,7 +888,7 @@ GameObject:
   - component: {fileID: 904389706}
   - component: {fileID: 904389705}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: ManaCoolDown 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -963,7 +963,7 @@ GameObject:
   - component: {fileID: 941251407}
   - component: {fileID: 941251406}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: ManaCoolDown 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1137,7 +1137,7 @@ GameObject:
   - component: {fileID: 995726292}
   - component: {fileID: 995726291}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: ManaCoolDown 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1212,7 +1212,7 @@ GameObject:
   - component: {fileID: 1059558664}
   - component: {fileID: 1059558663}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Skill icon 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1259,7 +1259,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7092324b93851a14c858530cca4a6b26, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ba12b1c3d67098f48a4f35e8e5ace441, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1537,7 +1537,7 @@ GameObject:
   - component: {fileID: 1328640551}
   - component: {fileID: 1328640550}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CoolDown 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1612,7 +1612,7 @@ GameObject:
   - component: {fileID: 1376273549}
   - component: {fileID: 1376273548}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: ManaCoolDown 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1687,7 +1687,7 @@ GameObject:
   - component: {fileID: 1376905548}
   - component: {fileID: 1376905547}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Skill icon 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1840,7 +1840,7 @@ GameObject:
   - component: {fileID: 1506661054}
   - component: {fileID: 1506661053}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: ManaCoolDown 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1915,7 +1915,7 @@ GameObject:
   - component: {fileID: 1530919583}
   - component: {fileID: 1530919582}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CoolDown 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1990,7 +1990,7 @@ GameObject:
   - component: {fileID: 1541245374}
   - component: {fileID: 1541245373}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Skill icon 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2037,7 +2037,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7092324b93851a14c858530cca4a6b26, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d089513ae4adfc48a683c362ad9992c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2067,7 +2067,7 @@ GameObject:
   - component: {fileID: 1764288572}
   - component: {fileID: 1764288571}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Skill icon 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2114,7 +2114,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7092324b93851a14c858530cca4a6b26, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 918dd5f4ab2325a40934cb856b021623, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2144,7 +2144,7 @@ GameObject:
   - component: {fileID: 1862879695}
   - component: {fileID: 1862879694}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CoolDown 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2219,7 +2219,7 @@ GameObject:
   - component: {fileID: 1867922485}
   - component: {fileID: 1867922484}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Skill icon 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2266,7 +2266,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7092324b93851a14c858530cca4a6b26, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 149fd20aae1babe4181446ebb0911025, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2438,7 +2438,7 @@ GameObject:
   - component: {fileID: 2074102930}
   - component: {fileID: 2074102929}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CoolDown 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
