@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlayerOnClick : MonoBehaviour
 {
+   
     public float maxSpeed = 5f;
     public float turnSpeed = 15f;
+
+
 
     private Animator anim;
     private CharacterController Controller;
@@ -94,7 +97,9 @@ public class PlayerOnClick : MonoBehaviour
                     }
                 }
             }
+
         }
+
         if (canMove)
         {
             anim.SetFloat("Speed", 1.0f);
