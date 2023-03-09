@@ -810,6 +810,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fcab4447992c4c44be8d60e93cf8520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CooldownIcons:
+  - {fileID: 1530919582}
+  - {fileID: 1328640550}
+  - {fileID: 2074102929}
+  - {fileID: 640725464}
+  - {fileID: 227912333}
+  - {fileID: 1862879694}
+  OutOfManaIcons:
+  - {fileID: 941251406}
+  - {fileID: 1506661053}
+  - {fileID: 904389705}
+  - {fileID: 264047928}
+  - {fileID: 995726291}
+  - {fileID: 1376273548}
 --- !u!1 &301102464
 GameObject:
   m_ObjectHideFlags: 0

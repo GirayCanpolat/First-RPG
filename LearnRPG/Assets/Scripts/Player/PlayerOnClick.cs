@@ -26,6 +26,54 @@ public class PlayerOnClick : MonoBehaviour
     private bool finishedMovement = true;
     private Vector3 NewMovePoint;
 
+    public bool FinishedMovement
+    {
+        get
+        {
+            return canMove;
+        }
+        set
+        {
+            canMove = value;
+        }
+    }
+
+    public bool CanMove
+    {
+        get
+        {
+            return finishedMovement;
+        }
+        set
+        {
+            finishedMovement = value;
+        }
+    }
+
+    public Vector3 TargetPosition
+    {
+        get
+        {
+            return targetMovePoint;
+        }
+        set
+        {
+            targetMovePoint = value;
+        }
+    }
+
+    public float TurnSpeed
+    {
+        get
+        {
+            return turnSpeed;
+        }
+        set
+        {
+            turnSpeed = value;
+        }
+    }
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -123,5 +171,9 @@ public class PlayerOnClick : MonoBehaviour
 
 
     }
+
+
+    
+
 
 }
