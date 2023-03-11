@@ -824,6 +824,13 @@ MonoBehaviour:
   - {fileID: 264047928}
   - {fileID: 995726291}
   - {fileID: 1376273548}
+  CooldownTime1: 1
+  CooldownTime2: 0.5
+  CooldownTime3: 0.6
+  CooldownTime4: 0.7
+  CooldownTime5: 0.3
+  CooldownTime6: 0.8
+  "CooldownTimeL\u0130st": []
 --- !u!1 &301102464
 GameObject:
   m_ObjectHideFlags: 0
