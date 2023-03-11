@@ -30,11 +30,11 @@ public class PlayerOnClick : MonoBehaviour
     {
         get
         {
-            return canMove;
+            return finishedMovement;
         }
         set
         {
-            canMove = value;
+            finishedMovement = value;
         }
     }
 
@@ -42,11 +42,11 @@ public class PlayerOnClick : MonoBehaviour
     {
         get
         {
-            return finishedMovement;
+            return canMove;
         }
         set
         {
-            finishedMovement = value;
+            canMove = value; 
         }
     }
 
@@ -59,18 +59,6 @@ public class PlayerOnClick : MonoBehaviour
         set
         {
             targetMovePoint = value;
-        }
-    }
-
-    public float TurnSpeed
-    {
-        get
-        {
-            return turnSpeed;
-        }
-        set
-        {
-            turnSpeed = value;
         }
     }
 
